@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 app.secret_key = "9d367b3ba8e8654c6433379763e80c6e"
 
-FLAG = "encryptCTF{v1rtualenvs_4re_c00l}"
+FLAG = "AzCTF{v1rtualenvs_4re_c00l}"
 
 @app.route('/')
 @app.route('/home')
